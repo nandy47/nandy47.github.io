@@ -55,3 +55,6 @@ Curated List of Articles for EADF - A One Football Partnered Website\
 
 [Check out my Tableau Public Profile](https://public.tableau.com/app/profile/sushruta)\
 <img src="/assets/images/tab.png" width="50" height="50" /> 
+
+[Check out my blog posts on Medium](https://sagnikdas1.medium.com/)\
+<img src="/assets/images/med.png" width="80" height="50" /> 
