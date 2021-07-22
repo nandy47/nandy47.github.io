@@ -10,3 +10,6 @@ You might know me from [Twitter](https://twitter.com/nandy_sd) or my blog posts 
 1. [Making Shot Maps on Tableau](https://sagnikdas1.medium.com/tabguide-1-making-shot-maps-1c030f08393e) 
 
 ## Posts featured on other websites
+
+
+Go to my fancier website [here](https://nandy47.github.io/blog/)
