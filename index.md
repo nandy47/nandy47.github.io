@@ -23,7 +23,7 @@ This was a project where I attempted to quanitify freedom i.e. put a mathematica
 
 ## Posts featured on other websites
 <img src="/assets/images/som.png" width="50" height="50" />\
-Curated List of Articles for Serpents of Madoninna - The SBNation website covering Inter Milan
+Curated List of Articles for [Serpents of Madoninna](https://www.serpentsofmadonnina.com/) - The SBNation website covering Inter Milan
 
 1. [A detailed report on Conte's old teams and using this to analyse Inter's lineup for the 19/20 season](https://www.serpentsofmadonnina.com/2019/8/11/20798608/analysis-how-will-inter-lineup-this-season) Aug 11, 2019
 2. A 5 part series statistically analysing Inter Milan\
@@ -34,7 +34,7 @@ Curated List of Articles for Serpents of Madoninna - The SBNation website coveri
   [Part 5](https://sagnikdas1.medium.com/serie-5-statistical-analysis-di-internazionale-milano-1477557fb2cb) | Aug 6, 2019
 
 <img src="/assets/images/eadf.jpeg" width="50" height="50" />\
-Curated List of Articles for EADF - A One Football Partnered Website
+Curated List of Articles for [EADF](https://www.elartedf.com/) - A One Football Partnered Website
 
 1. [A Memoir to Javier Zanetti](https://www.elartedf.com/gentleman-first-champion-zanetti/) | October 14, 2019
 2. [A piece on the evolution of the false 9 role in football](https://www.elartedf.com/evolution-false9-totti-firmino/) | November 5, 2018
