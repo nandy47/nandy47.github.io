@@ -21,5 +21,5 @@ Format: ![Alt Text](https://github.com/nandy47)
 Format: ![Alt Text](https://twitter.com/nandy_sd)
 
 
-![My Second Twitter Account where you can DM me](/images/twt.png)
+![My Second Twitter Account where you can DM me](assets/images/twt.png)
 Format: ![Alt Text](https://twitter.com/NdyStats)
