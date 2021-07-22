@@ -13,13 +13,6 @@ You might know me from [Twitter](https://twitter.com/nandy_sd) or my blog posts 
 
 
 
-![GitHub](assets/images/ghub.png)
-Format: ![Alt Text](https://github.com/nandy47)
-
 
 ![Twitter](assets/images/twt.png)
-Format: ![Alt Text](https://twitter.com/nandy_sd)
-
-
-![My Second Twitter Account where you can DM me](assets/images/twt.png)
-Format: ![Alt Text](https://twitter.com/NdyStats)
+Format: ![Follow me on twitter](https://twitter.com/nandy_sd)
