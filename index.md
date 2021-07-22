@@ -14,5 +14,5 @@ You might know me from [Twitter](https://twitter.com/nandy_sd) or my blog posts 
 
 
 
-![Twitter](assets/images/twt.png)
-[Follow me on twitter](https://twitter.com/nandy_sd)
+
+![Twitter](assets/images/twt.png =60x40)
