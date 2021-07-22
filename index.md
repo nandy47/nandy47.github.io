@@ -14,3 +14,7 @@ You might know me from [Twitter](https://twitter.com/nandy_sd) or my blog posts 
 
 
 <img src="/assets/images/twt.png" width="50" height="50" /> [Follow me on Twitter](https://twitter.com/nandy_sd)
+
+<img src="/assets/images/ghub.png" width="50" height="50" /> [My Github Profile](https://github.com/nandy47)
+
+<img src="/assets/images/afrecon.png" width="80" height="50" /> [Check out Afrecon](https://afreconscout.com/)
