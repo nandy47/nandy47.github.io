@@ -9,7 +9,7 @@ You might know me from [Twitter](https://twitter.com/nandy_sd) or my blog posts 
 ## Analysis Projects
 
 1. [Measuring Freedom](https://sagnikdas1.medium.com/measuring-freedom-87cfdf39bb0c) | Dec 29,2020 \
-This was a project to attempt to quanitfy that puts a mathematical number behind how free a player’s role truly is.
+This was a project to attempt to put a mathematical number behind how free a player’s role truly is.
 
 2. [Scraped Understat Data and made it open source for the analytics community](https://sagnikdas1.medium.com/glossary-3b3e67515375) \
 <em>This was done only after obtaining permission through email via Understat. If anybody involved with Understat or their data providers have issues with the release of this data, reach out to me on Twitter by tagging or DMing me, and I will take it down.</em>
@@ -22,9 +22,9 @@ This was a project to attempt to quanitfy that puts a mathematical number behind
 4. [Making Radar Charts on Tableau](https://sagnikdas1.medium.com/tableau-guide-4-football-radars-8cdac85ba1fc) | Feb 2, 2021
 
 ## Posts featured on other websites
-
+<img src="/assets/images/som.png" width="50" height="50" /> /
 Curated List of Articles for Serpents of Madoninna - The SBNation website covering Inter Milan\
-<img src="/assets/images/som.png" width="50" height="50" /> 
+
 
 
 1. [A detailed report on Conte's old teams and using this to analyse Inter's lineup for the 19/20 season](https://www.serpentsofmadonnina.com/2019/8/11/20798608/analysis-how-will-inter-lineup-this-season) Aug 11, 2019
@@ -34,9 +34,9 @@ Curated List of Articles for Serpents of Madoninna - The SBNation website coveri
   [Part 3](https://www.serpentsofmadonnina.com/2018/12/31/18162535/serie-3-statistical-analysis-di-internazionale-milano-mauro-icardi) | Dec 31, 2018\
   [Part 4](https://www.serpentsofmadonnina.com/2019/4/21/18508695/serie-4-statistical-analysis-di-internazionale-milano-inter-milan-antonio-conte-luciano-spalletti) | Apr 21, 2019\
   [Part 5](https://sagnikdas1.medium.com/serie-5-statistical-analysis-di-internazionale-milano-1477557fb2cb) | Aug 6, 2019
-  
-Curated List of Articles for EADF - A One Football Partnered Website\
-<img src="/assets/images/eadf.jpeg" width="50" height="50" /> 
+
+<img src="/assets/images/eadf.jpeg" width="50" height="50" />/ 
+Curated List of Articles for EADF - A One Football Partnered Website/
 
 1. [A Memoir to Javier Zanetti](https://www.elartedf.com/gentleman-first-champion-zanetti/) | October 14, 2019
 2. [A piece on the evolution of the false 9 role in football](https://www.elartedf.com/evolution-false9-totti-firmino/) | November 5, 2018
