@@ -13,7 +13,4 @@ You might know me from [Twitter](https://twitter.com/nandy_sd) or my blog posts 
 
 
 
-
-
-![](/assets/images/twt.png =20x20)
-<img src="/assets/images/twt.png" width="20" height="20" />
+<img src="/assets/images/twt.png" width="20" height="30" /> [Follow me on Twitter](https://twitter.com/nandy_sd)
