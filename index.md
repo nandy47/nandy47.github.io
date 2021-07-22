@@ -22,7 +22,7 @@ This was a project to attempt to put a mathematical number behind how free a pla
 4. [Making Radar Charts on Tableau](https://sagnikdas1.medium.com/tableau-guide-4-football-radars-8cdac85ba1fc) | Feb 2, 2021
 
 ## Posts featured on other websites
-<img src="/assets/images/som.png" width="50" height="50" /> /
+<img src="/assets/images/som.png" width="50" height="50" />\
 Curated List of Articles for Serpents of Madoninna - The SBNation website covering Inter Milan\
 
 
@@ -35,7 +35,7 @@ Curated List of Articles for Serpents of Madoninna - The SBNation website coveri
   [Part 4](https://www.serpentsofmadonnina.com/2019/4/21/18508695/serie-4-statistical-analysis-di-internazionale-milano-inter-milan-antonio-conte-luciano-spalletti) | Apr 21, 2019\
   [Part 5](https://sagnikdas1.medium.com/serie-5-statistical-analysis-di-internazionale-milano-1477557fb2cb) | Aug 6, 2019
 
-<img src="/assets/images/eadf.jpeg" width="50" height="50" />/ 
+<img src="/assets/images/eadf.jpeg" width="50" height="50" />\
 Curated List of Articles for EADF - A One Football Partnered Website/
 
 1. [A Memoir to Javier Zanetti](https://www.elartedf.com/gentleman-first-champion-zanetti/) | October 14, 2019
