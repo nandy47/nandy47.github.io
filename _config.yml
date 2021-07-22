@@ -1,11 +1,2 @@
-theme: minimal-mistakes-jekyll
-author:
-  name: "Nandy"
-  avatar: "/assets/images/profile.jpeg"
-  links:
-    - label: "Twitter"
-      icon: "fab fa-fw fa-twitter-square"
-      url: "https://twitter.com/nandy_sd"
-    - label: "GitHub"
-      icon: "fab fa-fw fa-github"
-      url: "https://github.com/nandy47"
+theme: jekyll-theme-minimal
+logo: /assets/images/profile.jpeg
