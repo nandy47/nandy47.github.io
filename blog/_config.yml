@@ -1,3 +1,4 @@
+theme : jekyll-theme-hydeout
 # Dependencies
 markdown:         kramdown
 highlighter:      rouge
