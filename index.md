@@ -13,11 +13,11 @@ You might know me from [Twitter](https://twitter.com/nandy_sd) or my blog posts 
 
 
 
-![GitHub](/images/ghub.png)
+![GitHub](assets/images/ghub.png)
 Format: ![Alt Text](https://github.com/nandy47)
 
 
-![Twitter](/images/twt.png)
+![Twitter](assets/images/twt.png)
 Format: ![Alt Text](https://twitter.com/nandy_sd)
 
 
