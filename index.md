@@ -29,11 +29,11 @@ Curated List of Articles for Serpents of Madoninna - The SBNation website coveri
 
 1. [A detailed report on Conte's old teams and using this to analyse Inter's lineup for the 19/20 season](https://www.serpentsofmadonnina.com/2019/8/11/20798608/analysis-how-will-inter-lineup-this-season) Aug 11, 2019
 2. A 5 part series statistically analysing Inter Milan\
-  [Part 1](https://www.serpentsofmadonnina.com/2018/11/15/17966804/serie-1-statistical-analysis-di-internazionale-milano-serie-a-inter-milan-mauro-icardi) | Nov 15, 2018
-  [Part 2](https://www.serpentsofmadonnina.com/2018/11/24/18108765/serie-2-statistical-analysis-di-internazionale-milano-mauro-icardi) | Nov 24, 2018
-  [Part 3](https://www.serpentsofmadonnina.com/2018/12/31/18162535/serie-3-statistical-analysis-di-internazionale-milano-mauro-icardi) | Dec 31, 2018
-  [Part 4](https://www.serpentsofmadonnina.com/2019/4/21/18508695/serie-4-statistical-analysis-di-internazionale-milano-inter-milan-antonio-conte-luciano-spalletti) | Apr 21, 2019
-  [Part 5](https://sagnikdas1.medium.com/serie-5-statistical-analysis-di-internazionale-milano-1477557fb2cb) | Aug 6, 2019
+  [Part 1](https://www.serpentsofmadonnina.com/2018/11/15/17966804/serie-1-statistical-analysis-di-internazionale-milano-serie-a-inter-milan-mauro-icardi) | Nov 15, 2018\
+  [Part 2](https://www.serpentsofmadonnina.com/2018/11/24/18108765/serie-2-statistical-analysis-di-internazionale-milano-mauro-icardi) | Nov 24, 2018\
+  [Part 3](https://www.serpentsofmadonnina.com/2018/12/31/18162535/serie-3-statistical-analysis-di-internazionale-milano-mauro-icardi) | Dec 31, 2018\
+  [Part 4](https://www.serpentsofmadonnina.com/2019/4/21/18508695/serie-4-statistical-analysis-di-internazionale-milano-inter-milan-antonio-conte-luciano-spalletti) | Apr 21, 2019\
+  [Part 5](https://sagnikdas1.medium.com/serie-5-statistical-analysis-di-internazionale-milano-1477557fb2cb) | Aug 6, 2019\
   
 Curated List of Articles for EADF - A One Football Partnered Website\
 <img src="/assets/images/eadf.jpeg" width="50" height="50" /> 
@@ -54,4 +54,4 @@ Curated List of Articles for EADF - A One Football Partnered Website\
 <img src="/assets/images/afrecon.png" width="80" height="50" /> 
 
 [Check out my Tableau Public Profile](https://public.tableau.com/app/profile/sushruta)\
-<img src="/assets/images/tab.png" width="80" height="50" /> 
+<img src="/assets/images/tab.png" width="50" height="50" /> 
