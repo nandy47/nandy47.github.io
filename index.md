@@ -15,4 +15,4 @@ You might know me from [Twitter](https://twitter.com/nandy_sd) or my blog posts 
 
 
 ![Twitter](assets/images/twt.png)
-Format: ![Follow me on twitter](https://twitter.com/nandy_sd)
+[Follow me on twitter](https://twitter.com/nandy_sd)
