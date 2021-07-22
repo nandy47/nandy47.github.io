@@ -3,8 +3,8 @@ Hi there 👋, I'm Nandy, I've spent the last 6 years in the footballsphere doin
 You might know me from [Twitter](https://twitter.com/nandy_sd) or my blog posts on [Medium](https://sagnikdas1.medium.com/). This github website is where I am attempting to curate all of my work into one place. You can find scouting reports, analysis projects among other things here. 
 
 ## Scouting Reports 
-1. [Manuel Locatelli](https://sagnikdas1.medium.com/manuel-locatelli-passing-savant-d1c73d3ac845) | Medium Jul 17, 2020
-2. [Aleksa Terzić](https://footballbh.net/2019/08/24/aleksa-terzic-201920-scout-report-tactical-analysis-tactics/) | TFA August 24, 2019
+1. [Manuel Locatelli](https://sagnikdas1.medium.com/manuel-locatelli-passing-savant-d1c73d3ac845) | Medium | Jul 17, 2020\
+2. [Aleksa Terzić](https://footballbh.net/2019/08/24/aleksa-terzic-201920-scout-report-tactical-analysis-tactics/) | TFA | August 24, 2019
 
 ## Analysis Projects
 
