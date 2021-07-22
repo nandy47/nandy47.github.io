@@ -12,4 +12,14 @@ You might know me from [Twitter](https://twitter.com/nandy_sd) or my blog posts 
 ## Posts featured on other websites
 
 
-Go to my fancier website [here](https://nandy47.github.io/blog/)
+
+![GitHub](/images/ghub.png)
+Format: ![Alt Text](https://github.com/nandy47)
+
+
+![Twitter](/images/twt.png)
+Format: ![Alt Text](https://twitter.com/nandy_sd)
+
+
+![My Second Twitter Account where you can DM me](/images/twt.png)
+Format: ![Alt Text](https://twitter.com/NdyStats)
