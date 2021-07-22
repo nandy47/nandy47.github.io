@@ -1,5 +1,3 @@
-theme: jekyll-theme-minimal
+theme: "just-the-docs"
 logo: /assets/images/profile.jpeg
-title: Nandy
-twitter_username: nandy_sd
-github_username: nandy47
+color_scheme: dark
