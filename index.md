@@ -3,8 +3,8 @@ Hi there 👋, I'm Nandy, I've spent the last 6 years in the footballsphere doin
 You might know me from [Twitter](https://twitter.com/nandy_sd) or my blog posts on [Medium](https://sagnikdas1.medium.com/). This github website is where I am attempting to curate all of my work into one place. You can find scouting reports, analysis projects among other things here. 
 
 ## Scouting Reports 
-1. [Manuel Locatelli](https://sagnikdas1.medium.com/manuel-locatelli-passing-savant-d1c73d3ac845) Medium | Jul 17, 2020
-2. [Aleksa Terzić](https://footballbh.net/2019/08/24/aleksa-terzic-201920-scout-report-tactical-analysis-tactics/) TFA | August 24, 2019
+1. [Manuel Locatelli](https://sagnikdas1.medium.com/manuel-locatelli-passing-savant-d1c73d3ac845) | Medium Jul 17, 2020
+2. [Aleksa Terzić](https://footballbh.net/2019/08/24/aleksa-terzic-201920-scout-report-tactical-analysis-tactics/) | TFA August 24, 2019
 
 ## Analysis Projects
 
@@ -33,7 +33,7 @@ Curated List of Articles for Serpents of Madoninna - The SBNation website coveri
   [Part 2](https://www.serpentsofmadonnina.com/2018/11/24/18108765/serie-2-statistical-analysis-di-internazionale-milano-mauro-icardi) | Nov 24, 2018\
   [Part 3](https://www.serpentsofmadonnina.com/2018/12/31/18162535/serie-3-statistical-analysis-di-internazionale-milano-mauro-icardi) | Dec 31, 2018\
   [Part 4](https://www.serpentsofmadonnina.com/2019/4/21/18508695/serie-4-statistical-analysis-di-internazionale-milano-inter-milan-antonio-conte-luciano-spalletti) | Apr 21, 2019\
-  [Part 5](https://sagnikdas1.medium.com/serie-5-statistical-analysis-di-internazionale-milano-1477557fb2cb) | Aug 6, 2019\
+  [Part 5](https://sagnikdas1.medium.com/serie-5-statistical-analysis-di-internazionale-milano-1477557fb2cb) | Aug 6, 2019
   
 Curated List of Articles for EADF - A One Football Partnered Website\
 <img src="/assets/images/eadf.jpeg" width="50" height="50" /> 
