@@ -8,4 +8,4 @@ If you would like to contact me for my CV or otherwise, please do so on my perso
 worknandy [at] gmail [dot] com
 
 ## Blog
-26 May 2022     [Specalisation]
+26 May 2022     [Morbius Copypasta](https://nandy47.github.io/sample_pos_1.md)
