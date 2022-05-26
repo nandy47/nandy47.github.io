@@ -4,7 +4,7 @@ I am working on some academic papers over the upcoming academic year (2022-23), 
 
 I also have work experience, which has primarily been in the data analysis sector. I've worked on diverse projects, and have worked for companies who have had clients ranging from African Football to the Ministry of Rural Development, Government on India.
 
-If you would like to contact me for my CV or otherwise, please do so on my personal email ID
+If you would like to contact me for my CV or otherwise, please do so on my personal email ID:
 worknandy [at] gmail [dot] com
 
 ## Blog
