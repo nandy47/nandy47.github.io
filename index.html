@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Sushruta Nandy</title>
+  <meta name="description" content="Sushruta Nandy — MSAI student at Plaksha University, former data analyst, aspiring technical product manager.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,600&family=Inter:wght@400;500&display=swap" rel="stylesheet">
+  <style>
+    :root {
+      --bg: #faf8f4; --fg: #1d1c1a; --muted: #6b675f; --line: #e4dfd5; --accent: #b4532a;
+    }
+    @media (prefers-color-scheme: dark) {
+      :root { --bg: #151413; --fg: #ece8e1; --muted: #9a958c; --line: #2c2a27; --accent: #e08a5c; }
+    }
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    body {
+      background: var(--bg); color: var(--fg);
+      font: 400 17px/1.65 "Inter", system-ui, sans-serif;
+      -webkit-font-smoothing: antialiased;
+    }
+    main { max-width: 680px; margin: 0 auto; padding: 96px 24px 64px; }
+    h1 {
+      font-family: "Fraunces", Georgia, serif; font-weight: 600;
+      font-size: clamp(2.4rem, 6vw, 3.4rem); line-height: 1.1; letter-spacing: -0.02em;
+    }
+    .tagline { margin-top: 16px; font-size: 1.15rem; color: var(--muted); max-width: 34em; }
+    h2 {
+      font: 500 0.78rem/1 "Inter", sans-serif; letter-spacing: 0.12em; text-transform: uppercase;
+      color: var(--muted); margin: 64px 0 20px;
+    }
+    p + p { margin-top: 1em; }
+    a { color: var(--fg); text-decoration-color: var(--accent); text-underline-offset: 3px; text-decoration-thickness: 1.5px; }
+    a:hover { color: var(--accent); }
+    .flow { list-style: none; display: grid; grid-template-columns: repeat(4, 1fr); gap: 0; position: relative; }
+    .flow li { position: relative; padding-right: 16px; }
+    .flow li:not(:last-child)::after {
+      content: ""; position: absolute; top: 32px; left: 72px; right: 8px; height: 1.5px; background: var(--line);
+    }
+    .flow li:not(:last-child)::before {
+      content: ""; position: absolute; top: 28px; right: 8px; width: 8px; height: 8px;
+      border-top: 1.5px solid var(--muted); border-right: 1.5px solid var(--muted); transform: rotate(45deg);
+    }
+    .logo {
+      width: 64px; height: 64px; border-radius: 16px; background: #fff; border: 1px solid var(--line);
+      display: grid; place-items: center; overflow: hidden; margin-bottom: 14px;
+      font: 600 1.1rem "Fraunces", Georgia, serif; color: #1d1c1a;
+    }
+    .logo img { width: 80%; height: 80%; object-fit: contain; }
+    .flow li.now .logo { border: 2px solid var(--accent); }
+    .flow .when { color: var(--muted); font-size: 0.82rem; }
+    .flow strong { font-weight: 500; display: block; line-height: 1.35; margin: 2px 0 4px; }
+    .flow span { color: var(--muted); font-size: 0.88rem; display: block; line-height: 1.45; }
+    .links { display: flex; flex-wrap: wrap; gap: 12px 28px; }
+    footer { margin-top: 80px; font-size: 0.85rem; color: var(--muted); }
+    @media (max-width: 520px) {
+      main { padding-top: 64px; }
+      .flow { grid-template-columns: 1fr; gap: 28px; }
+      .flow li { display: grid; grid-template-columns: 64px 1fr; gap: 16px; padding: 0; }
+      .flow li:not(:last-child)::after { top: 72px; left: 32px; right: auto; width: 1.5px; height: calc(100% - 52px); }
+      .flow li:not(:last-child)::before { display: none; }
+      .flow .logo { margin: 0; }
+    }
+  </style>
+</head>
+<body>
+  <main>
+    <header>
+      <h1>Sushruta Nandy</h1>
+      <p class="tagline">MSAI student at Plaksha University. Social scientist turned data analyst turned builder, working towards technical product management.</p>
+    </header>
+
+    <section>
+      <h2>About</h2>
+      <p>I started out in the social sciences, applying machine learning and statistics to questions in development economics — labour, micro-finance and family economics.</p>
+      <p>I then spent three years in data analytics. At Afrecon I built a Tableau scouting dashboard for football clubs and turned it into a subscription product. At Indus Insights I worked with a US credit card issuer and an Indian fintech, building risk dashboards, data marts and lending-funnel analyses, and later led a small team of analysts. Along the way I taught myself computer science fundamentals, which led me to the Master's in AI at Plaksha.</p>
+      <p>Today I'm most interested in the space between models and products: figuring out what's worth building, and making sure it actually works for the people using it.</p>
+    </section>
+
+    <section>
+      <h2>Path so far</h2>
+      <ol class="flow">
+        <li>
+          <div class="logo">A</div><!-- swap for <img src="logos/ashoka.png" alt="Ashoka University"> -->
+          <div><div class="when">Grad. 2022 · 2023</div><strong>Ashoka University</strong><span>BSc Economics &amp; Finance · PG Diploma in Liberal Studies</span></div>
+        </li>
+        <li>
+          <div class="logo">Af</div>
+          <div><div class="when">2022 — 2023</div><strong>Afrecon</strong><span>Data Visualisation Consultant, football analytics &amp; scouting</span></div>
+        </li>
+        <li>
+          <div class="logo">II</div>
+          <div><div class="when">2023 — 2025</div><strong>Indus Insights</strong><span>Associate → Senior Associate, Cards Portfolio Analytics</span></div>
+        </li>
+        <li class="now">
+          <div class="logo">P</div>
+          <div><div class="when">2025 — now</div><strong>Plaksha University</strong><span>MSAI (Master's in AI)</span></div>
+        </li>
+      </ol>
+    </section>
+
+    <section>
+      <h2>Contact</h2>
+      <p>For my CV or anything else, write to <a href="mailto:worknandy@gmail.com">worknandy@gmail.com</a>.</p>
+      <p class="links" style="margin-top:16px">
+        <a href="https://www.linkedin.com/in/sushruta-nandy-sn47/">LinkedIn</a>
+        <a href="https://github.com/nandy47">GitHub</a>
+      </p>
+    </section>
+
+    <footer>© 2026 Sushruta Nandy</footer>
+  </main>
+</body>
+</html>
