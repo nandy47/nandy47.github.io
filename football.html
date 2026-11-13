@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Football analytics | Sushruta Nandy</title>
+  <meta name="description" content="Football analytics work by Sushruta Nandy: Afrecon and Tableau and R guides for football data.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,600&family=Inter:wght@400;500&display=swap" rel="stylesheet">
+  <style>
+    :root {
+      --bg: #faf8f4; --fg: #1d1c1a; --muted: #6b675f; --line: #e4dfd5; --accent: #b4532a;
+    }
+    @media (prefers-color-scheme: dark) {
+      :root { --bg: #151413; --fg: #ece8e1; --muted: #9a958c; --line: #2c2a27; --accent: #e08a5c; }
+    }
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    body {
+      background: var(--bg); color: var(--fg);
+      font: 400 17px/1.65 "Inter", system-ui, sans-serif;
+      -webkit-font-smoothing: antialiased;
+    }
+    main { max-width: 680px; margin: 0 auto; padding: 48px 24px 64px; }
+    a { color: var(--fg); text-decoration-color: var(--accent); text-underline-offset: 3px; text-decoration-thickness: 1.5px; }
+    a:hover { color: var(--accent); }
+    .back { font-size: 0.9rem; color: var(--muted); text-decoration: none; }
+    .back:hover { color: var(--accent); }
+    h1 {
+      font-family: "Fraunces", Georgia, serif; font-weight: 600;
+      font-size: clamp(2rem, 5vw, 2.8rem); line-height: 1.15; letter-spacing: -0.02em; margin-top: 48px;
+    }
+    .intro { margin-top: 16px; color: var(--muted); }
+    .stats { display: flex; flex-wrap: wrap; gap: 12px 40px; margin-top: 36px; }
+    .stats div { display: flex; flex-direction: column; }
+    .stats strong { font-family: "Fraunces", Georgia, serif; font-weight: 600; font-size: 1.7rem; line-height: 1.2; }
+    .stats span { font-size: 0.85rem; color: var(--muted); }
+    h2 {
+      font: 500 0.78rem/1 "Inter", sans-serif; letter-spacing: 0.12em; text-transform: uppercase;
+      color: var(--muted); margin: 56px 0 16px;
+    }
+    .list { list-style: none; border-top: 1px solid var(--line); }
+    .list li {
+      display: flex; justify-content: space-between; align-items: baseline; gap: 16px;
+      padding: 12px 0; border-bottom: 1px solid var(--line);
+    }
+    .list .when { font-size: 0.85rem; color: var(--muted); white-space: nowrap; }
+    .links { display: flex; flex-wrap: wrap; gap: 12px 28px; }
+    footer { margin-top: 80px; font-size: 0.85rem; color: var(--muted); }
+  </style>
+</head>
+<body>
+  <main>
+    <a class="back" href="./">← Sushruta Nandy</a>
+
+    <h1>Football analytics</h1>
+    <p class="intro">Before economics and AI, I spent years in football analytics: scouting, writing and building data tools. It's where I first learned to turn data into something people would actually pay for.</p>
+
+    <div class="stats">
+      <div><strong>20K+</strong><span>views on my blogs</span></div>
+      <div><strong>273</strong><span>Medium followers</span></div>
+      <div><strong>10+</strong><span>paying Afrecon clients</span></div>
+    </div>
+
+    <section>
+      <h2>Afrecon</h2>
+      <p>At <a href="https://afreconscout.com/">Afrecon</a>, a football analytics and scouting company, I designed a Tableau dashboard for tracking players to support recruitment decisions, then turned it into a monthly subscription product used by 10+ clients.</p>
+    </section>
+
+    <section>
+      <h2>Guides</h2>
+      <ul class="list">
+        <li><a href="https://medium.com/p/1c030f08393e">Making shot maps in Tableau</a><span class="when">Jul 2020</span></li>
+        <li><a href="https://medium.com/p/bad2d541b8ed">Making pass maps in Tableau</a><span class="when">Jul 2020</span></li>
+        <li><a href="https://snandy47.medium.com/">Extracting a team's season shot data from Understat in R</a><span class="when">Jul 2020</span></li>
+        <li><a href="https://medium.com/p/c7edc31a9921">Convex hulls in Tableau</a><span class="when">Jan 2021</span></li>
+        <li><a href="https://medium.com/p/8cdac85ba1fc">Football radars in Tableau</a><span class="when">Feb 2021</span></li>
+      </ul>
+    </section>
+
+    <section>
+      <h2>More</h2>
+      <p class="links">
+        <a href="https://snandy47.medium.com/">Medium</a>
+        <a href="https://public.tableau.com/app/profile/sushruta">Tableau Public</a>
+      </p>
+    </section>
+
+    <footer>© 2026 Sushruta Nandy · <a href="./">Home</a></footer>
+  </main>
+</body>
+</html>
