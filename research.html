@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Research &amp; working papers | Sushruta Nandy</title>
+  <meta name="description" content="Research and working papers by Sushruta Nandy, in development, labour and health economics.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,600&family=Inter:wght@400;500&display=swap" rel="stylesheet">
+  <style>
+    :root {
+      --bg: #faf8f4; --fg: #1d1c1a; --muted: #6b675f; --line: #e4dfd5; --accent: #b4532a; --card: #ffffff;
+    }
+    @media (prefers-color-scheme: dark) {
+      :root { --bg: #151413; --fg: #ece8e1; --muted: #9a958c; --line: #2c2a27; --accent: #e08a5c; --card: #1c1b19; }
+    }
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    body {
+      background: var(--bg); color: var(--fg);
+      font: 400 17px/1.65 "Inter", system-ui, sans-serif;
+      -webkit-font-smoothing: antialiased;
+    }
+    main { max-width: 680px; margin: 0 auto; padding: 48px 24px 64px; }
+    a { color: var(--fg); text-decoration-color: var(--accent); text-underline-offset: 3px; text-decoration-thickness: 1.5px; }
+    a:hover { color: var(--accent); }
+    .back { font-size: 0.9rem; color: var(--muted); text-decoration: none; }
+    .back:hover { color: var(--accent); }
+    h1 {
+      font-family: "Fraunces", Georgia, serif; font-weight: 600;
+      font-size: clamp(2rem, 5vw, 2.8rem); line-height: 1.15; letter-spacing: -0.02em; margin-top: 48px;
+    }
+    .intro { margin-top: 16px; color: var(--muted); }
+    .paper {
+      margin-top: 48px; padding: 28px; background: var(--card);
+      border: 1px solid var(--line); border-radius: 16px;
+    }
+    .paper h2 {
+      font-family: "Fraunces", Georgia, serif; font-weight: 600;
+      font-size: 1.4rem; line-height: 1.3; margin: 0 0 14px;
+    }
+    .coauthor { font-size: 0.88rem; font-style: italic; color: var(--muted); margin-top: 10px; }
+    .tags { display: flex; flex-wrap: wrap; gap: 8px; margin-top: 18px; }
+    .tags span {
+      font-size: 0.78rem; color: var(--muted); border: 1px solid var(--line);
+      border-radius: 999px; padding: 2px 10px;
+    }
+    details { margin-top: 20px; border-top: 1px solid var(--line); padding-top: 16px; }
+    summary {
+      cursor: pointer; font-weight: 500; font-size: 0.95rem; list-style: none;
+      display: flex; align-items: center; gap: 8px;
+    }
+    summary::-webkit-details-marker { display: none; }
+    summary::before { content: "+"; color: var(--accent); font-size: 1.1rem; width: 12px; }
+    details[open] summary::before { content: "−"; }
+    details h3 {
+      font: 500 0.75rem/1 "Inter", sans-serif; letter-spacing: 0.12em; text-transform: uppercase;
+      color: var(--muted); margin: 22px 0 8px;
+    }
+    details p, details li { font-size: 0.95rem; }
+    details ul { padding-left: 20px; }
+    details li + li { margin-top: 6px; }
+    .request {
+      display: inline-flex; align-items: center; gap: 8px; margin-top: 22px;
+      font-size: 0.9rem; font-weight: 500; text-decoration: none;
+      border: 1.5px solid var(--accent); color: var(--accent); border-radius: 999px; padding: 7px 16px;
+    }
+    .request:hover { background: var(--accent); color: var(--bg); }
+    .request svg { width: 16px; height: 16px; fill: none; stroke: currentColor; stroke-width: 1.8; stroke-linecap: round; stroke-linejoin: round; }
+    footer { margin-top: 80px; font-size: 0.85rem; color: var(--muted); }
+    @media (max-width: 520px) { .paper { padding: 22px; } }
+  </style>
+</head>
+<body>
+  <main>
+    <a class="back" href="./">← Sushruta Nandy</a>
+
+    <h1>Research &amp; working papers</h1>
+    <p class="intro">Papers from my economics work at Ashoka University, spanning development, labour and health. They're unpublished, so the full papers aren't posted here. If you'd like to read one, just email me.</p>
+
+    <article class="paper">
+      <h2>What Predicts Diabetes in Low-Income Settings? A Machine Learning Approach</h2>
+
+      <p>Most diabetes-prediction work relies on clinical data from high-income countries. I asked how far you can get with only the socio-economic information a household survey collects in India's villages and urban slums. Using the India Human Development Survey, with a standard clinical dataset as a benchmark, I trained random forest and regularised logistic regression classifiers. Random forests did best on both, but the bigger finding was the gap between the two: a handful of clinical measures predicted diabetes far better than 158 socio-economic features. With self-reported prevalence of just 1–2% in the survey, much diabetes appears to go undiagnosed, so the data captures who <em>knows</em> they have diabetes as much as who has it.</p>
+
+      <div class="tags"><span>Machine learning</span><span>Health</span><span>Classification</span><span>Class imbalance</span><span>Survey data</span></div>
+
+      <details>
+        <summary>Data, approach &amp; findings</summary>
+
+        <h3>Data</h3>
+        <ul>
+          <li><strong>IHDS-II (2011–12):</strong> cleaned from ~1,000 raw variables down to 127,113 individuals and 158 features. I dropped people reporting they'd been "cured" of diabetes and pregnant women, to focus on type 2 diabetes.</li>
+          <li><strong>Pima Indians Diabetes Database:</strong> ~770 women with 8 clinical measures (glucose, insulin, BMI, blood pressure, pregnancies), used as a clinical benchmark.</li>
+        </ul>
+
+        <h3>Approach</h3>
+        <ul>
+          <li>Random forest and L1-regularised logistic regression (also tried with polynomial features).</li>
+          <li>Balanced class weights, since only 1.5% of the survey sample reported diabetes.</li>
+          <li>Hyperparameters tuned by grid search with 8-fold cross-validation on a 75/25 train–test split.</li>
+        </ul>
+
+        <h3>What I found</h3>
+        <ul>
+          <li>Random forests outperformed logistic regression on both datasets: macro F1 of 0.79 on the clinical data versus 0.48 on the survey.</li>
+          <li>On the survey, the model caught only about 12% of diabetic cases, strong evidence that socio-economic features alone can't stand in for testing.</li>
+          <li>The most predictive survey features were urbanisation, income, state, age, education, diet (rice and non-vegetarian spending), high blood pressure and cataracts. Income, education and state likely reflect <em>awareness and diagnosis</em> as much as actual risk.</li>
+          <li>The policy takeaway: expand testing in rural areas and urban slums, where under-diagnosis is likely highest.</li>
+        </ul>
+      </details>
+
+      <a class="request" data-subject="Request: What predicts diabetes in low-income settings" href="#">
+        <svg viewBox="0 0 24 24" aria-hidden="true"><rect x="3" y="5" width="18" height="14" rx="2"/><path d="m3 7 9 6 9-6"/></svg>
+        Email me for the paper or code
+      </a>
+    </article>
+
+    <article class="paper">
+      <h2>The Effect of Self-Help Groups on Women's Labour Force Participation: Evidence from India</h2>
+
+      <p>Self-help groups (SHGs) are widely promoted as a way to bring rural women into paid work. Using two rounds of the India Human Development Survey, we ask whether districts with more SHG activity actually see more women working. We find the opposite: higher SHG penetration is associated with lower female labour force participation and fewer hours worked. The effect varies sharply by age: the largest drop is among girls aged 13–17, pointing to a fall in child labour. Loan data suggests why the employment effect is weak: most SHG credit goes to consumption, housing and medical costs rather than business.</p>
+      <p class="coauthor">Co-written with Ananya Vhavle</p>
+
+      <div class="tags"><span>Development economics</span><span>Labour</span><span>Panel data</span><span>Fixed effects</span><span>Stata</span></div>
+
+      <details>
+        <summary>Data, approach &amp; findings</summary>
+
+        <h3>Data</h3>
+        <p>India Human Development Survey, IHDS-I (2004–05) and IHDS-II (2011–12): a nationally representative panel of roughly 41,000 households across every state. We built a district-level <em>SHG penetration</em> measure (the share of households with at least one SHG member), merged it into the individual file, and restricted the sample to women.</p>
+
+        <h3>Approach</h3>
+        <ul>
+          <li>OLS with district and time fixed effects, so the estimate comes from changes within districts between the two survey rounds.</li>
+          <li>Two outcomes: whether a woman is in the workforce, and hours worked per year.</li>
+          <li>Four specifications, progressively adding controls for age, income and credit access; caste and religion; household education; and household structure.</li>
+          <li>Age-bracket interactions (13–17, 18–35, 36–60) to test whether effects differ across life stages, plus a breakdown of what SHG loans were used for.</li>
+        </ul>
+
+        <h3>What we found</h3>
+        <ul>
+          <li>Higher SHG penetration was associated with lower workforce participation and roughly 250 fewer hours worked per year, significant across all specifications.</li>
+          <li>Participation fell most for girls aged 13–17, consistent with SHG credit helping households keep children out of work.</li>
+          <li>Only about 9% of SHG loans were used for business. Most went to consumption, housing and medical expenses, so SHG credit behaved more like a cash transfer than a livelihoods tool.</li>
+          <li>Coefficients weakened once caste and religion were controlled for, hinting that benefits may skew away from marginalised communities.</li>
+        </ul>
+      </details>
+
+      <a class="request" data-subject="Request: SHGs and women's labour force participation" href="#">
+        <svg viewBox="0 0 24 24" aria-hidden="true"><rect x="3" y="5" width="18" height="14" rx="2"/><path d="m3 7 9 6 9-6"/></svg>
+        Email me for the paper or code
+      </a>
+    </article>
+
+    <article class="paper">
+      <h2>Welfare through Workfare: The Impact of MGNREGA on Children's Education in Rural India</h2>
+
+      <p>MGNREGA, the world's largest workfare programme, is usually judged on wages, jobs and consumption. We asked whether it also reaches the next generation. Using household panel data from the India Human Development Survey, bracketing the programme's 2006 launch, we compare children in households that earned meaningful MGNREGA income with those that didn't. Children in participating households showed modest but significant gains in reading, arithmetic and writing, spent more time in school and on homework, and were less likely to repeat a grade. Gains were uneven, though: Adivasi children saw little benefit, suggesting the programme reached tribal areas less effectively.</p>
+      <p class="coauthor">Co-written with Ananya Vhavle</p>
+
+      <div class="tags"><span>Development economics</span><span>Education</span><span>Public policy</span><span>Difference-in-differences</span><span>Panel data</span></div>
+
+      <details>
+        <summary>Data, approach &amp; findings</summary>
+
+        <h3>Data</h3>
+        <p>Both rounds of the India Human Development Survey: 2004–05, before MGNREGA existed, and 2011–12, five years into its national rollout. We kept rural households present in both rounds (about 136,000 people in 28,000 households) and used the survey's reading, writing and arithmetic tests for roughly 16,000 children aged 8–11, plus schooling data for about 60,000 children.</p>
+
+        <h3>Approach</h3>
+        <ul>
+          <li>Difference-in-differences: comparing the change in outcomes for children in MGNREGA households against the change for everyone else, before versus after the programme.</li>
+          <li>Treatment defined by actual income from MGNREGA (at least ₹3,000 in 2011–12) rather than simply holding a job card, so households that barely participated weren't counted as treated.</li>
+          <li>Matching households across rounds, including those that split over the seven years, a fiddly but necessary step to avoid losing a large share of the sample.</li>
+          <li>Twelve outcomes across learning levels, time use, and school engagement, with controls for household income and size and state, district, caste, religion, sex and age fixed effects.</li>
+          <li>A triple interaction by caste and religion to test whether the programme reached marginalised groups.</li>
+        </ul>
+
+        <h3>What we found</h3>
+        <ul>
+          <li>Children in MGNREGA households were about 4 percentage points more likely to read at least a paragraph, do at least subtraction, and write with few mistakes.</li>
+          <li>They spent around an hour more a week in school and half an hour more on homework, with slightly less time in private tuition.</li>
+          <li>They were about 7 percentage points less likely to have repeated a grade, plausibly because a local safety net meant families didn't have to migrate in lean seasons, keeping children in the same school.</li>
+          <li>Gains skewed towards forward castes and Muslim households; Adivasi children fell behind on several measures.</li>
+        </ul>
+      </details>
+
+      <a class="request" data-subject="Request: MGNREGA and children's education" href="#">
+        <svg viewBox="0 0 24 24" aria-hidden="true"><rect x="3" y="5" width="18" height="14" rx="2"/><path d="m3 7 9 6 9-6"/></svg>
+        Email me for the paper or code
+      </a>
+    </article>
+
+    <footer>© 2026 Sushruta Nandy · <a href="./">Home</a></footer>
+  </main>
+  <script>
+    (function () {
+      var e = ["worknandy", "gmail.com"].join("@");
+      document.querySelectorAll(".request").forEach(function (a) {
+        a.href = "mailto:" + e + "?subject=" + encodeURIComponent(a.dataset.subject || "Research paper request");
+      });
+    })();
+  </script>
+</body>
+</html>
